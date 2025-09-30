@@ -110,13 +110,4 @@ Expense Tracker/
 
 ## 📄 License
 
-All Rights Reserved (or switch to MIT if open-source).
-
-```
-
----
-
-✅ This will render each screenshot under its own heading, **with the image and filename below it**, exactly how you requested.  
-
-Do you also want me to make a **second version with HTML resizing** (so all screenshots appear smaller and uniform in width)?
-```
+No Rights Reserved .
