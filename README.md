@@ -1,28 +1,26 @@
 # 💰 Expense Tracker (Java Swing)
 
-A lightweight desktop app to **track daily expenses** with a clean Java Swing interface and simple file-based storage (no database required).
+Lightweight desktop app to **track daily expenses** with a clean Swing UI and simple **file-based storage** (no DB).
 
 ---
 
 ## ✨ Features
-- User Sign Up & Login (file-based authentication)
-- Add, view, and filter expenses
-- Organize by categories
+- User Sign Up & Login (file-based auth)
+- Add expenses with category, amount, description, date
+- Filter expense list by **category** or **date (dd-mm-yyyy)**
 - Update profile (email & password)
 - Simple dashboard navigation
-- Data stored in plain text files under `repositories/data/`
+- Data saved in `repositories/data/` (`users.txt`, `expenses.txt`, `categories.txt`)
 
 ---
 
 ## 🖥️ Run the Project
 
-### 🔹 Easiest Way (Windows)
-1. Download the project ZIP  
-2. Unzip it  
-3. **Double-click `run_project.bat`** 🚀  
-   - It compiles and runs the app automatically.
+### ✅ Easiest (Windows)
+1) Download ZIP → Unzip  
+2) **Double-click `run_project.bat`** (compiles & launches automatically)
 
-### 🔹 Other Way (Manual Compile, cross-platform)
+### ➕ Other (cross-platform manual)
 ```bash
 javac */*.java *.java
 java Start
@@ -39,17 +37,38 @@ Password: 1234
 
 ---
 
+## 📂 Project Structure (short)
+
+```
+Expense Tracker/
+  Start.java
+  run_project.bat
+  entities/        # User, Expense, Category
+  frames/          # Swing UI (Entry, Login, SignUp, Dashboard, AddExpense, ExpenseList, UpdateProfile)
+  interfaces/      # Repo interfaces
+  repositories/    # FileIO + repos
+  repositories/data/
+    users.txt
+    expenses.txt
+    categories.txt
+```
+
+---
+
 ## 📸 Screenshots
 
-### Welcome & Authentication
+### Welcome
 
-![Welcome](Signin-Signup.png)
+![Welcome Page](Signin-Signup.png)
+
+### Authentication
+
 ![Login](Screenshot 2025-10-01 004325.png)
-![Sign Up](Screenshot 2025-10-01 004359.png)
+![Sign Up](Screenshot 2025-10-01 004338.png)
 
 ### Dashboard
 
-![Dashboard](Screenshot 2025-10-01 004338.png)
+![Dashboard](Screenshot 2025-10-01 004359.png)
 
 ### Add Expense
 
@@ -68,14 +87,16 @@ Password: 1234
 
 ## ⚠️ Notes
 
-* Works best on **Windows (with .bat file)**
-* Cross-platform supported via `javac` + `java Start`
-* Stores data in text files — not suitable for concurrent multi-user use
+* Best on **Windows** via `.bat`; Linux/macOS use manual `javac`/`java` commands
+* Plain-text storage → not for concurrent multi-user usage
 
 ---
 
 ## 📄 License
 
-No Rights Reserved .
+All Rights Reserved (or switch to MIT if open-source).
 
 ```
+
+want me to swap the screenshot section to a **2-column gallery grid** (HTML) for a cleaner GitHub look?
+`
