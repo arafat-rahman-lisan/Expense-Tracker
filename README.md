@@ -1,34 +1,30 @@
-# Expense Tracker (Java Swing)
+# 💰 Expense Tracker (Java Swing)
 
-A lightweight desktop app to **track daily expenses** with simple file-based storage.  
-Built using **Java Swing** — no database required.
+A lightweight desktop app to **track daily expenses** with a clean Java Swing interface and simple file-based storage (no database required).
 
 ---
 
 ## ✨ Features
-- Add, edit, and view expenses
+- User Sign Up & Login (file-based authentication)
+- Add, view, and filter expenses
 - Organize by categories
-- User login & signup (file-based auth)
-- Simple dashboard
-- Data saved in text files under `repositories/data/`
+- Update profile (email & password)
+- Simple dashboard navigation
+- Data stored in plain text files under `repositories/data/`
 
 ---
 
 ## 🖥️ Run the Project
 
-### Easiest Way (Windows)
-1. Download the project  
+### 🔹 Easiest Way (Windows)
+1. Download the project ZIP  
 2. Unzip it  
-3. **Double-click `run_project.bat`**  
-   - It compiles and launches automatically 🎉
+3. **Double-click `run_project.bat`** 🚀  
+   - It compiles and runs the app automatically.
 
-### Other Way (Manual Compile)
-From project root **(CMD)**:
-
+### 🔹 Other Way (Manual Compile, cross-platform)
 ```bash
-# Compile all Java files
 javac */*.java *.java
-# Run the app
 java Start
 ````
 
@@ -43,38 +39,43 @@ Password: 1234
 
 ---
 
-## 📂 Project Structure
+## 📸 Screenshots
 
-```
-Expense Tracker/
-  Start.java
-  run_project.bat
-  entities/        # Models
-  frames/          # Swing UI
-  interfaces/      # Repo interfaces
-  repositories/    # File-based repos + data files
-```
+### Welcome & Authentication
 
----
+![Welcome](Signin-Signup.png)
+![Login](Screenshot 2025-10-01 004325.png)
+![Sign Up](Screenshot 2025-10-01 004359.png)
 
-## 📸 Screenshots (add yours here)
+### Dashboard
 
-* ![Dashboard](docs/screenshots/dashboard.png)
-* ![Add Expense](docs/screenshots/add-expense.png)
-* ![Login](docs/screenshots/login.png)
+![Dashboard](Screenshot 2025-10-01 004338.png)
+
+### Add Expense
+
+![Add Expense](Screenshot 2025-10-01 004437.png)
+![Expense Added](Screenshot 2025-10-01 004445.png)
+
+### Expense List
+
+![Expense List](Screenshot 2025-10-01 004504.png)
+
+### Update Profile
+
+![Update Profile](Screenshot 2025-10-01 004519.png)
 
 ---
 
 ## ⚠️ Notes
 
 * Works best on **Windows (with .bat file)**
-* Cross-platform via manual `javac` + `java Start`
-* Stores data in plain text files (no DB)
+* Cross-platform supported via `javac` + `java Start`
+* Stores data in text files — not suitable for concurrent multi-user use
 
 ---
 
 ## 📄 License
 
-No Rights Reserved.
-```
+No Rights Reserved .
 
+```
