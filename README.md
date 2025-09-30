@@ -1,5 +1,5 @@
 
-# 💰 Expense Tracker (Java Swing)
+# Expense Tracker (Java Swing)
 
 Lightweight desktop app to **track daily expenses** with a clean Swing UI and simple **file-based storage** (no database).
 
@@ -43,7 +43,6 @@ Password: 1234
 
 ```
 Expense Tracker/
-  README.md
   Start.java
   run_project.bat
   entities/        # User, Expense, Category
@@ -54,89 +53,51 @@ Expense Tracker/
     users.txt
     expenses.txt
     categories.txt
-  (screenshots are in the repo root, see filenames below)
 ```
 
 ---
 
-## 📸 Screenshots (with exact file names)
+## 📸 Screenshots
 
-> All images are stored in the **repo root** next to `README.md`.
+### Welcome
 
-**File list**
+![Welcome](Signin-Signup.png)
+`Signin-Signup.png`
 
-* `Signin-Signup.png`
-* `Screenshot 2025-10-01 004325.png`
-* `Screenshot 2025-10-01 004338.png`
-* `Screenshot 2025-10-01 004359.png`
-* `Screenshot 2025-10-01 004437.png`
-* `Screenshot 2025-10-01 004445.png`
-* `Screenshot 2025-10-01 004504.png`
-* `Screenshot 2025-10-01 004519.png`
+### Login
 
-### Gallery (2-column)
+![Login](Screenshot%202025-10-01%20004325.png)
+`Screenshot 2025-10-01 004325.png`
 
-<!-- Using HTML for a neat responsive grid; spaces in filenames are URL-encoded as %20 -->
+### Sign Up
 
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;">
+![Sign Up](Screenshot%202025-10-01%20004338.png)
+`Screenshot 2025-10-01 004338.png`
 
-  <!-- Welcome -->
+### Dashboard
 
-  <figure>
-    <img src="Signin-Signup.png" alt="Welcome - Daily Expense Tracker (Signin-Signup.png)" />
-    <figcaption>Welcome — <code>Signin-Signup.png</code></figcaption>
-  </figure>
+![Dashboard](Screenshot%202025-10-01%20004359.png)
+`Screenshot 2025-10-01 004359.png`
 
-  <!-- Login -->
+### Add Expense
 
-  <figure>
-    <img src="Screenshot%202025-10-01%20004325.png" alt="Login - Daily Expense Tracker (Screenshot 2025-10-01 004325.png)" />
-    <figcaption>Login — <code>Screenshot 2025-10-01 004325.png</code></figcaption>
-  </figure>
+![Add Expense](Screenshot%202025-10-01%20004437.png)
+`Screenshot 2025-10-01 004437.png`
 
-  <!-- Sign Up -->
+### Expense Added
 
-  <figure>
-    <img src="Screenshot%202025-10-01%20004338.png" alt="Sign Up - Daily Expense Tracker (Screenshot 2025-10-01 004338.png)" />
-    <figcaption>Sign Up — <code>Screenshot 2025-10-01 004338.png</code></figcaption>
-  </figure>
+![Expense Added](Screenshot%202025-10-01%20004445.png)
+`Screenshot 2025-10-01 004445.png`
 
-  <!-- Dashboard -->
+### Expense List
 
-  <figure>
-    <img src="Screenshot%202025-10-01%20004359.png" alt="Dashboard - Daily Expense Tracker (Screenshot 2025-10-01 004359.png)" />
-    <figcaption>Dashboard — <code>Screenshot 2025-10-01 004359.png</code></figcaption>
-  </figure>
+![Expense List](Screenshot%202025-10-01%20004504.png)
+`Screenshot 2025-10-01 004504.png`
 
-  <!-- Add Expense -->
+### Update Profile
 
-  <figure>
-    <img src="Screenshot%202025-10-01%20004437.png" alt="Add Expense - Daily Expense Tracker (Screenshot 2025-10-01 004437.png)" />
-    <figcaption>Add Expense — <code>Screenshot 2025-10-01 004437.png</code></figcaption>
-  </figure>
-
-  <!-- Expense Added dialog -->
-
-  <figure>
-    <img src="Screenshot%202025-10-01%20004445.png" alt="Expense Added - Daily Expense Tracker (Screenshot 2025-10-01 004445.png)" />
-    <figcaption>Expense Added — <code>Screenshot 2025-10-01 004445.png</code></figcaption>
-  </figure>
-
-  <!-- Expense List -->
-
-  <figure>
-    <img src="Screenshot%202025-10-01%20004504.png" alt="Expense List - Daily Expense Tracker (Screenshot 2025-10-01 004504.png)" />
-    <figcaption>Expense List — <code>Screenshot 2025-10-01 004504.png</code></figcaption>
-  </figure>
-
-  <!-- Update Profile -->
-
-  <figure>
-    <img src="Screenshot%202025-10-01%20004519.png" alt="Update Profile - Daily Expense Tracker (Screenshot 2025-10-01 004519.png)" />
-    <figcaption>Update Profile — <code>Screenshot 2025-10-01 004519.png</code></figcaption>
-  </figure>
-
-</div>
+![Update Profile](Screenshot%202025-10-01%20004519.png)
+`Screenshot 2025-10-01 004519.png`
 
 ---
 
@@ -153,5 +114,9 @@ All Rights Reserved (or switch to MIT if open-source).
 
 ```
 
-If you later move the images into a folder (e.g., `docs/screenshots/`), tell me and I’ll update every path in one go.
+---
+
+✅ This will render each screenshot under its own heading, **with the image and filename below it**, exactly how you requested.  
+
+Do you also want me to make a **second version with HTML resizing** (so all screenshots appear smaller and uniform in width)?
 ```
