@@ -1,6 +1,7 @@
+
 # 💰 Expense Tracker (Java Swing)
 
-Lightweight desktop app to **track daily expenses** with a clean Swing UI and simple **file-based storage** (no DB).
+Lightweight desktop app to **track daily expenses** with a clean Swing UI and simple **file-based storage** (no database).
 
 ---
 
@@ -17,8 +18,9 @@ Lightweight desktop app to **track daily expenses** with a clean Swing UI and si
 ## 🖥️ Run the Project
 
 ### ✅ Easiest (Windows)
-1) Download ZIP → Unzip  
-2) **Double-click `run_project.bat`** (compiles & launches automatically)
+1. Download ZIP → Unzip  
+2. **Double-click `run_project.bat`** 🚀  
+   - Compiles & launches the app automatically
 
 ### ➕ Other (cross-platform manual)
 ```bash
@@ -41,54 +43,107 @@ Password: 1234
 
 ```
 Expense Tracker/
+  README.md
   Start.java
   run_project.bat
   entities/        # User, Expense, Category
-  frames/          # Swing UI (Entry, Login, SignUp, Dashboard, AddExpense, ExpenseList, UpdateProfile)
+  frames/          # Entry, Login, SignUp, Dashboard, AddExpense, ExpenseList, UpdateProfile
   interfaces/      # Repo interfaces
   repositories/    # FileIO + repos
   repositories/data/
     users.txt
     expenses.txt
     categories.txt
+  (screenshots are in the repo root, see filenames below)
 ```
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots (with exact file names)
 
-### Welcome
+> All images are stored in the **repo root** next to `README.md`.
 
-![Welcome Page](Signin-Signup.png)
+**File list**
 
-### Authentication
+* `Signin-Signup.png`
+* `Screenshot 2025-10-01 004325.png`
+* `Screenshot 2025-10-01 004338.png`
+* `Screenshot 2025-10-01 004359.png`
+* `Screenshot 2025-10-01 004437.png`
+* `Screenshot 2025-10-01 004445.png`
+* `Screenshot 2025-10-01 004504.png`
+* `Screenshot 2025-10-01 004519.png`
 
-![Login](Screenshot 2025-10-01 004325.png)
-![Sign Up](Screenshot 2025-10-01 004338.png)
+### Gallery (2-column)
 
-### Dashboard
+<!-- Using HTML for a neat responsive grid; spaces in filenames are URL-encoded as %20 -->
 
-![Dashboard](Screenshot 2025-10-01 004359.png)
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;">
 
-### Add Expense
+  <!-- Welcome -->
 
-![Add Expense](Screenshot 2025-10-01 004437.png)
-![Expense Added](Screenshot 2025-10-01 004445.png)
+  <figure>
+    <img src="Signin-Signup.png" alt="Welcome - Daily Expense Tracker (Signin-Signup.png)" />
+    <figcaption>Welcome — <code>Signin-Signup.png</code></figcaption>
+  </figure>
 
-### Expense List
+  <!-- Login -->
 
-![Expense List](Screenshot 2025-10-01 004504.png)
+  <figure>
+    <img src="Screenshot%202025-10-01%20004325.png" alt="Login - Daily Expense Tracker (Screenshot 2025-10-01 004325.png)" />
+    <figcaption>Login — <code>Screenshot 2025-10-01 004325.png</code></figcaption>
+  </figure>
 
-### Update Profile
+  <!-- Sign Up -->
 
-![Update Profile](Screenshot 2025-10-01 004519.png)
+  <figure>
+    <img src="Screenshot%202025-10-01%20004338.png" alt="Sign Up - Daily Expense Tracker (Screenshot 2025-10-01 004338.png)" />
+    <figcaption>Sign Up — <code>Screenshot 2025-10-01 004338.png</code></figcaption>
+  </figure>
+
+  <!-- Dashboard -->
+
+  <figure>
+    <img src="Screenshot%202025-10-01%20004359.png" alt="Dashboard - Daily Expense Tracker (Screenshot 2025-10-01 004359.png)" />
+    <figcaption>Dashboard — <code>Screenshot 2025-10-01 004359.png</code></figcaption>
+  </figure>
+
+  <!-- Add Expense -->
+
+  <figure>
+    <img src="Screenshot%202025-10-01%20004437.png" alt="Add Expense - Daily Expense Tracker (Screenshot 2025-10-01 004437.png)" />
+    <figcaption>Add Expense — <code>Screenshot 2025-10-01 004437.png</code></figcaption>
+  </figure>
+
+  <!-- Expense Added dialog -->
+
+  <figure>
+    <img src="Screenshot%202025-10-01%20004445.png" alt="Expense Added - Daily Expense Tracker (Screenshot 2025-10-01 004445.png)" />
+    <figcaption>Expense Added — <code>Screenshot 2025-10-01 004445.png</code></figcaption>
+  </figure>
+
+  <!-- Expense List -->
+
+  <figure>
+    <img src="Screenshot%202025-10-01%20004504.png" alt="Expense List - Daily Expense Tracker (Screenshot 2025-10-01 004504.png)" />
+    <figcaption>Expense List — <code>Screenshot 2025-10-01 004504.png</code></figcaption>
+  </figure>
+
+  <!-- Update Profile -->
+
+  <figure>
+    <img src="Screenshot%202025-10-01%20004519.png" alt="Update Profile - Daily Expense Tracker (Screenshot 2025-10-01 004519.png)" />
+    <figcaption>Update Profile — <code>Screenshot 2025-10-01 004519.png</code></figcaption>
+  </figure>
+
+</div>
 
 ---
 
 ## ⚠️ Notes
 
-* Best on **Windows** via `.bat`; Linux/macOS use manual `javac`/`java` commands
-* Plain-text storage → not for concurrent multi-user usage
+* Best on **Windows** via `.bat`; Linux/macOS use manual `javac` + `java Start`
+* Plain-text storage → not for concurrent multi-user use
 
 ---
 
@@ -98,5 +153,5 @@ All Rights Reserved (or switch to MIT if open-source).
 
 ```
 
-want me to swap the screenshot section to a **2-column gallery grid** (HTML) for a cleaner GitHub look?
-`
+If you later move the images into a folder (e.g., `docs/screenshots/`), tell me and I’ll update every path in one go.
+```
