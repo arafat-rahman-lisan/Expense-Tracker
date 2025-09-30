@@ -62,42 +62,42 @@ Expense Tracker/
 ### Welcome
 
 ![Welcome](Signin-Signup.png)
-`Signin-Signup.png`
+
 
 ### Login
 
 ![Login](Screenshot%202025-10-01%20004325.png)
-`Screenshot 2025-10-01 004325.png`
+
 
 ### Sign Up
 
 ![Sign Up](Screenshot%202025-10-01%20004338.png)
-`Screenshot 2025-10-01 004338.png`
+
 
 ### Dashboard
 
 ![Dashboard](Screenshot%202025-10-01%20004359.png)
-`Screenshot 2025-10-01 004359.png`
+
 
 ### Add Expense
 
 ![Add Expense](Screenshot%202025-10-01%20004437.png)
-`Screenshot 2025-10-01 004437.png`
+
 
 ### Expense Added
 
 ![Expense Added](Screenshot%202025-10-01%20004445.png)
-`Screenshot 2025-10-01 004445.png`
+
 
 ### Expense List
 
 ![Expense List](Screenshot%202025-10-01%20004504.png)
-`Screenshot 2025-10-01 004504.png`
+
 
 ### Update Profile
 
 ![Update Profile](Screenshot%202025-10-01%20004519.png)
-`Screenshot 2025-10-01 004519.png`
+
 
 ---
 
